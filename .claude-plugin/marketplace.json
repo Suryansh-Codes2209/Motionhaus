@@ -1,0 +1,14 @@
+{
+  "name": "motionhaus",
+  "description": "Motionhaus: AI video studio (launch films, Shorts, edit styles).",
+  "owner": {
+    "name": "Suryansh"
+  },
+  "plugins": [
+    {
+      "name": "motionhaus",
+      "source": "./",
+      "description": "Launch films, styled Shorts and a Remotion motion kit."
+    }
+  ]
+}

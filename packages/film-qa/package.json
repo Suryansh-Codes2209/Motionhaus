@@ -1,0 +1,28 @@
+{
+  "name": "@motionhaus/film-qa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pre-delivery gate (slideshow / blank-frame / palette / loudness checks) and reference breakdown for finished videos. Ported from huashu-art-motion (MIT).",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "film-qa": "src/cli.mjs"
+  },
+  "exports": {
+    "./gate": "./src/gate.mjs",
+    "./breakdown": "./src/breakdown.mjs",
+    "./metrics": "./src/metrics.mjs",
+    "./earshot": "./src/earshot.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc -p .",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  }
+}

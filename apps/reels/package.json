@@ -1,0 +1,26 @@
+{
+  "name": "@motionhaus/reels",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Instagram Reels editor: real footage → jump cuts, punch-ins, captions, stickers, outro, loudness, QA.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "reels": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc -p .",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "satori": "0.63.2"
+  }
+}

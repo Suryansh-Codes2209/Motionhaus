@@ -1,0 +1,19 @@
+# YouTube channels polled through their public RSS feeds (no API key).
+# Feed: https://www.youtube.com/feeds/videos.xml?channel_id=<channelId>
+# Channel IDs verified against each feed on 2026-10-11.
+- name: "Linear"
+  channelId: "UCWivgq8xSp7QcXVyPHml-Aw"
+- name: "Vercel"
+  channelId: "UCLq8gNoee7oXM7MvTdjyQvA"
+- name: "Stripe"
+  channelId: "UCM1guA1E-RHLO2OyfQPOkEQ"
+- name: "Figma"
+  channelId: "UCQsVmhSa4X-G3lHlUtejzLA"
+- name: "Raycast"
+  channelId: "UCPvOHaaP9E6FqSqG1NMV_Hw"
+- name: "Framer"
+  channelId: "UCW5gUZ7lKGrAbLOkHv2xfbw"
+- name: "Notion"
+  channelId: "UCoSvlWS5XcwaSzIcbuJ-Ysg"
+- name: "Cursor"
+  channelId: "UC6YYHJzM6PhZ2Yey9BQiUaw"

@@ -1,0 +1,22 @@
+name: Feature request
+description: An idea for something Motionhaus should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the problem or the channel you are building, not only the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: This fits the [Rules for using Motionhaus](../blob/main/RESPONSIBLE_USE.md) (no impersonation, no copied stories or characters, no platform-rule workarounds).
+          required: true

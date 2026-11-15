@@ -1,0 +1,20 @@
+# Everything generated (launch films, episodes, runs, review kits, ledger, caches)
+workspace/
+
+node_modules/
+.npm-cache/
+.env
+.cache/
+assets/audio-packs/*/
+
+# studio render scratch
+apps/shorts/studio/out/
+apps/shorts/studio/public/site/
+apps/shorts/studio/public/audio/
+apps/shorts/studio/public/vo/
+apps/reels/studio/out/
+
+.DS_Store
+.claude/settings.local.json
+*.log
+apps/reels/studio/public/huashu

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "audio-library": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/packages/audio-lib/src/mcp.mjs"]
+    },
+    "24fps": {
+      "type": "http",
+      "url": "https://24fps.dev/mcp"
+    }
+  }
+}

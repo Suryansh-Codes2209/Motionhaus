@@ -1,0 +1,25 @@
+{
+  "name": "Launch Radar",
+  "handle": "@thelaunchradar",
+  "mascot": true,
+  "colors": {"bg": "#0D0C12", "fg": "#F4F1EC", "muted": "#8B8794", "accent": "#FFB020", "accent2": "#FF3D2E"},
+  "fonts": {"display": "SpaceGrotesk", "mono": "JetBrainsMono"},
+  "voice": {"provider": "chatterbox", "id": "am_michael", "speed": 1.05},
+  "captions": {"burnIn": true, "srt": true, "wordsPerPage": 3},
+  "perDay": 2,
+  "shortlist": 12,
+  "publishSlotsIST": ["19:30", "21:30"],
+  "instagram": {
+    "handle": "@thelaunchradar.hq",
+    "hashtags": ["#aitools", "#devtools", "#opensource", "#buildinpublic", "#indiehackers"],
+    "maxHashtags": 6,
+    "slotsIST": ["19:30"],
+    "autoPostAfter": 73
+  },
+  "anchors": ["Claude", "Claude Code", "Anthropic", "ChatGPT", "OpenAI", "GPT", "Codex", "Gemini", "Google", "Cursor", "Copilot", "GitHub", "VS Code", "Windsurf", "Nvidia", "RTX", "GPU", "AMD", "Intel", "Apple", "Mac", "macOS", "MacBook", "iPhone", "iPad", "Windows", "Microsoft", "Linux", "Ubuntu", "Android", "Steam", "Steam Deck", "Xbox", "PlayStation", "Minecraft", "Doom", "Raycast", "Notion", "Obsidian", "Figma", "Photoshop", "Excel", "Chrome", "Firefox", "YouTube", "Spotify", "Netflix", "Discord", "Slack", "WhatsApp", "Telegram", "Wikipedia", "Raspberry Pi", "Arduino", "Docker", "Python", "Rust", "JavaScript", "React", "Three.js", "Blender", "Unity", "Unreal", "Godot", "Tesla", "Meta", "Llama", "DeepSeek", "Ollama", "Xiaomi", "Samsung", "smart TV", "Theo", "Wes Bos", "Uncle Bob", "ThePrimeagen", "Fireship", "Linus Torvalds", "Karpathy", "Hacker News", "New York Times", "Scott Hanselman", "Task Manager", "Remotion", "Granola"],
+  "lookbackHours": 36,
+  "sources": {
+    "hn": {"enabled": true, "minPoints": 20},
+    "github": {"enabled": true, "minStars": 150, "maxAgeDays": 7}
+  }
+}

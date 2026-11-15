@@ -1,0 +1,29 @@
+{
+  "name": "motionhaus",
+  "version": "0.3.0",
+  "description": "Motionhaus: an AI video studio. Website URL → launch film (LaunchReel); daily launch Shorts with per-video edit styles; Instagram reel edits of real footage; 35 painting art styles, explainer grammars, GSAP, Anime.js, Three.js, Rive, Motion Canvas and Satori driven frame-exact in Remotion; license-tracked music/SFX; pre-delivery QA.",
+  "author": {
+    "name": "Suryansh Chaudhary",
+    "url": "https://github.com/Suryansh-Codes2209"
+  },
+  "keywords": [
+    "art-styles",
+    "edit-styles",
+    "gsap",
+    "instagram",
+    "launch",
+    "launch-references",
+    "motion-canvas",
+    "motion-graphics",
+    "reels",
+    "remotion",
+    "rive",
+    "satori",
+    "shorts",
+    "threejs",
+    "video"
+  ],
+  "homepage": "https://github.com/Suryansh-Codes2209/Motionhaus",
+  "repository": "https://github.com/Suryansh-Codes2209/Motionhaus",
+  "license": "MIT"
+}

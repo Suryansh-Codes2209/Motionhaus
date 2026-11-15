@@ -1,0 +1,33 @@
+{
+  "name": "launch-radar-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Remotion project that renders Launch Radar shorts from episode props, using the Motionhaus motion kit.",
+  "scripts": {
+    "sync": "bash scripts/sync-template.sh",
+    "dev": "remotion studio",
+    "typecheck": "tsc",
+    "test": "node --test src/shorts/*.test.ts src/longform/*.test.ts"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.534",
+    "@remotion/google-fonts": "4.0.534",
+    "@remotion/motion-blur": "4.0.534",
+    "@remotion/noise": "4.0.534",
+    "@remotion/three": "4.0.534",
+    "@remotion/transitions": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "19.2.7",
+    "@types/three": "0.186.0",
+    "@types/web": "0.0.166",
+    "playwright": "^1.64.0",
+    "typescript": "5.9.3"
+  }
+}

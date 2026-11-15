@@ -1,0 +1,59 @@
+# Hand-picked launch videos. Searched first by search_launch_references.
+# save_reference appends entries here. Fields:
+#   title, url, company, category, length (seconds), notes, tags
+# Format: a simple YAML subset (top-level list of flat maps; quoted strings,
+# numbers, [flow, lists], and `key: |` blocks). Leave unknown fields out
+# rather than guessing.
+#
+# Seed entries: real "Introducing …" uploads from the official channels in
+# channels.yaml (as listed in their RSS feeds on 2026-10-11). Lengths are left
+# out because the feeds don't include them; analyze_reference fills in what
+# the APIs can confirm.
+
+- title: "Introducing coding sessions"
+  url: "https://www.youtube.com/watch?v=rZk0QrxPpw8"
+  company: "Linear"
+  category: "devtools"
+  notes: "Feature launch from Linear's official channel (2026-06-11)."
+  publishedAt: "2026-06-11"
+  tags: ["feature-launch", "saas", "devtools"]
+
+- title: "Introducing Linear Diffs"
+  url: "https://www.youtube.com/watch?v=7gZBxBTapDQ"
+  company: "Linear"
+  category: "devtools"
+  notes: "Feature launch from Linear's official channel (2026-05-28)."
+  publishedAt: "2026-05-28"
+  tags: ["feature-launch", "saas", "devtools"]
+
+- title: "Introducing Cursor for iOS"
+  url: "https://www.youtube.com/watch?v=ovxL42LkKNg"
+  company: "Cursor"
+  category: "devtools"
+  notes: "Platform launch (mobile app) from Cursor's official channel (2026-06-29)."
+  publishedAt: "2026-06-29"
+  tags: ["product-launch", "mobile", "ai", "devtools"]
+
+- title: "Introducing Skills: Teach the Framer Agent to design more like you and your team"
+  url: "https://www.youtube.com/watch?v=ibUWeTP2tzc"
+  company: "Framer"
+  category: "design-tools"
+  notes: "Feature launch from Framer's official channel (2026-09-22)."
+  publishedAt: "2026-09-22"
+  tags: ["feature-launch", "ai", "design"]
+
+- title: "Introducing the NuPhy × Raycast Keyboard"
+  url: "https://www.youtube.com/watch?v=73pdeHCGerA"
+  company: "Raycast"
+  category: "hardware"
+  notes: "Hardware collaboration launch from Raycast's official channel (2026-08-27)."
+  publishedAt: "2026-08-27"
+  tags: ["product-launch", "hardware", "collab"]
+
+- title: "The Vercel CLI is Now Built for AI Agents"
+  url: "https://www.youtube.com/watch?v=70XCwYKvbII"
+  company: "Vercel"
+  category: "devtools"
+  notes: "Feature announcement from Vercel's official channel (2026-07-27)."
+  publishedAt: "2026-07-27"
+  tags: ["feature-launch", "cli", "ai", "devtools"]

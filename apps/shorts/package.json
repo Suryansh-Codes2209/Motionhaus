@@ -1,0 +1,28 @@
+{
+  "name": "@motionhaus/shorts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Launch Radar: daily launch Shorts pipeline built on the Motionhaus motion kit.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "shorts": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:smoke": "SHORTS_SMOKE=1 node --test test/smoke.test.mjs",
+    "typecheck": "tsc -p .",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "kokoro-js": "^1.2.1",
+    "@motionhaus/audio-lib": "*",
+    "@motionhaus/film-qa": "*"
+  }
+}

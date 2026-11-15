@@ -1,0 +1,34 @@
+{
+  "name": "motionhaus",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Motionhaus: an AI video studio. Launch films (LaunchReel), daily Shorts channels (Launch Radar), Instagram reel edits of real footage, edit styles, a Remotion motion kit and a pre-delivery QA gate.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "workspaces": [
+    "packages/audio-lib",
+    "packages/film-qa",
+    "apps/shorts",
+    "apps/reels"
+  ],
+  "scripts": {
+    "sync": "bash apps/shorts/studio/scripts/sync-template.sh",
+    "studio:install": "npm --prefix apps/shorts/studio install && npm --prefix apps/reels/studio install",
+    "studio": "npm --prefix apps/shorts/studio run dev",
+    "typecheck": "npm run typecheck --workspaces && npm --prefix apps/shorts/studio run typecheck && npm --prefix apps/reels/studio run typecheck",
+    "test": "npm test --workspaces && npm --prefix apps/shorts/studio test && npm --prefix apps/reels/studio test",
+    "check": "npm run typecheck && npm test",
+    "shorts": "node apps/shorts/src/cli.mjs",
+    "mcp": "node packages/audio-lib/src/mcp.mjs",
+    "reels": "node apps/reels/src/cli.mjs",
+    "qa": "node packages/film-qa/src/cli.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suryansh-Codes2209/Motionhaus.git"
+  },
+  "author": "Suryansh Chaudhary"
+}

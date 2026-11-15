@@ -1,0 +1,87 @@
+{
+  "name": "",
+  "handle": "",
+  "colors": {
+    "bg": "#101014",
+    "fg": "#F5F3EE",
+    "muted": "#8C8A94",
+    "accent": "#3DDC97",
+    "accent2": "#FF7A45"
+  },
+  "fonts": {
+    "display": "SpaceGrotesk",
+    "mono": "JetBrainsMono"
+  },
+  "voice": {
+    "provider": "kokoro",
+    "id": "am_michael",
+    "speed": 1.05
+  },
+  "captions": {
+    "burnIn": true,
+    "srt": true,
+    "wordsPerPage": 3
+  },
+  "perDay": 1,
+  "shortlist": 12,
+  "lookbackHours": 36,
+  "publishSlotsIST": [
+    "19:30"
+  ],
+  "instagram": {
+    "handle": "",
+    "hashtags": [],
+    "maxHashtags": 6,
+    "slotsIST": [
+      "19:30"
+    ]
+  },
+  "template": "facts-lists",
+  "stories": {
+    "identity": "story",
+    "feeds": [],
+    "search": true,
+    "banned": [
+      "crypto|memecoin|airdrop|nft|web3|defi|token sale|presale|ico",
+      "casino|betting|gambl\\w*|sportsbook",
+      "porn\\w*|nsfw|onlyfans|adult content|escort",
+      "get rich|make money (fast|online)|passive income|forex|signals group"
+    ]
+  },
+  "rules": {
+    "titleAnchor": false,
+    "subjectInFrame0": false,
+    "brightFrame0": true,
+    "shortFirstSentence": true,
+    "scenes": [
+      5,
+      8
+    ],
+    "words": [
+      62,
+      100
+    ],
+    "endsOnQuestion": true,
+    "shortsTag": true,
+    "instagramBlock": true,
+    "broadHashtags": [],
+    "sourcesRequired": true,
+    "badgeSource": false
+  },
+  "publish": {
+    "badge": "#{n}",
+    "outro": "Follow for one fact a day",
+    "shareOutro": "Send this to someone who'd never guess it",
+    "credit": {
+      "own": "Made by the creator of this account.",
+      "direct": "Sources are linked in the YouTube description.",
+      "via": "Sources are linked in the YouTube description."
+    },
+    "youtube": {
+      "categoryId": "27",
+      "language": "en"
+    },
+    "listSources": true,
+    "kitNotes": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+ "caption": "Claude Code can now rehearse your pitch? Oratora just launched\n\nOratora listens to your talk and scores it.\n\n🌐 https://oratora.live\nNot affiliated, featured because it's a new launch.\n\nWould you use it in your next talk? 👇\n\n#aitools #devtools #opensource #buildinpublic #indiehackers",
+ "captionOwnSite": "Claude Code can now rehearse your pitch? Oratora just launched\n\nOratora listens to your talk and scores it.\n\n🌐 https://oratora.live\nNot affiliated, featured because it's a new launch.\n\nWould you use it in your next talk? 👇\n\n#aitools #devtools #opensource #buildinpublic #indiehackers",
+ "captionVia": "Claude Code can now rehearse your pitch? Oratora just launched\n\nOratora listens to your talk and scores it.\nMade by @maker\n\n🌐 https://oratora.live\n🔗 https://github.com/x/oratora\nFound via GitHub. Not affiliated, featured because it's trending.\n\nWould you use it in your next talk? 👇\n\n#voiceai #aitools #devtools #opensource #buildinpublic #indiehackers",
+ "captionOwnProject": "Claude Code can now rehearse your pitch? Oratora just launched\n\nOratora listens to your talk and scores it.\n\n🌐 https://oratora.live\nMade by the creator of this account.\n\nWould you use it in your next talk? 👇\n\n#aitools #devtools #opensource #buildinpublic #indiehackers",
+ "igOutro": {
+  "text": "Send this to a dev who needs it",
+  "vo": "Send this to a dev who needs it."
+ },
+ "body": {
+  "snippet": {
+   "title": "Claude Code can now rehearse your pitch? Oratora just launched",
+   "description": "Oratora listens to your talk and scores it.\n\nMore below.",
+   "tags": [
+    "ai",
+    "public speaking"
+   ],
+   "categoryId": "28",
+   "defaultLanguage": "en",
+   "defaultAudioLanguage": "en"
+  },
+  "status": {
+   "privacyStatus": "public",
+   "selfDeclaredMadeForKids": false,
+   "embeddable": true
+  }
+ },
+ "propsSeries": {
+  "name": "Launch Radar",
+  "handle": "@thelaunchradar",
+  "colors": {
+   "bg": "#0D0C12",
+   "fg": "#F4F1EC",
+   "muted": "#8B8794",
+   "accent": "#FFB020",
+   "accent2": "#FF3D2E"
+  },
+  "mascot": true
+ },
+ "sourceLabel": "Show HN",
+ "brand": {
+  "url": "oratora.live",
+  "font": "Inter"
+ },
+ "retention": [
+  "warning 1",
+  "warning 2",
+  "warning 3",
+  "warning 4"
+ ],
+ "retentionBad": [
+  "warning 1",
+  "warning 2",
+  "warning 3",
+  "warning 4",
+  "warning 5",
+  "warning 6",
+  "warning 7",
+  "warning 8",
+  "warning 9"
+ ],
+ "insta": [
+  "warning 1",
+  "warning 2"
+ ],
+ "instaBad": [
+  "warning 1",
+  "warning 2",
+  "warning 3",
+  "warning 4"
+ ]
+}

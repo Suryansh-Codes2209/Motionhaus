@@ -1,0 +1,24 @@
+{
+  "name": "@motionhaus/audio-lib",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Motionhaus MCP server: free music/SFX with license handling, and launch-video reference research.",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:smoke": "node --test test/smoke.test.mjs test/references-smoke.test.mjs",
+    "typecheck": "tsc -p .",
+    "check": "npm run typecheck && npm test",
+    "mcp": "node src/mcp.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  }
+}

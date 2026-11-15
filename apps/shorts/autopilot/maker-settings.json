@@ -1,0 +1,40 @@
+{
+  "//": "Bash rules only. The file rules (where the maker may write, what it may not read) are added at run time with absolute paths by makerSettings() in src/autopilot.mjs: Claude Code ignores ./relative Edit rules. The denies are anchored on the subcommand, so a story title, key or link that merely contains a word like 'publish' or 'autopilot' is not refused; the CLI itself also refuses these commands when MOTIONHAUS_MAKER is set, and .env is denied as a file rule.",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Agent",
+      "Skill",
+      "WebFetch",
+      "WebSearch",
+      "Bash(node apps/shorts/src/cli.mjs *)",
+      "Bash(node packages/motion-kit/scripts/*)",
+      "Bash(node apps/shorts/studio/scripts/capture.mjs *)",
+      "Bash(node packages/film-qa/src/cli.mjs *)",
+      "Bash(node packages/audio-lib/src/cli.mjs *)",
+      "Bash(npm run qa *)",
+      "Bash(npx remotion *)",
+      "Bash(ffprobe *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(date *)"
+    ],
+    "deny": [
+      "Bash(node apps/shorts/src/cli.mjs insta-post*)",
+      "Bash(node apps/shorts/src/cli.mjs insta-auth*)",
+      "Bash(node apps/shorts/src/cli.mjs publish*)",
+      "Bash(node apps/shorts/src/cli.mjs auth*)",
+      "Bash(node apps/shorts/src/cli.mjs autopilot*)",
+      "Bash(node apps/shorts/src/cli.mjs channel*)",
+      "Bash(node apps/shorts/src/cli.mjs --channel*)",
+      "Bash(git push*)",
+      "Bash(git commit*)",
+      "Bash(git reset*)",
+      "Bash(rm -rf*)",
+      "Bash(sudo *)",
+      "Bash(launchctl *)"
+    ]
+  }
+}

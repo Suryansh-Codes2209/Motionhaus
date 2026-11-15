@@ -1,0 +1,80 @@
+{
+  "episode": 1,
+  "sourceLabel": "Show HN",
+  "brand": {
+    "name": "Oratora",
+    "tagline": "Live polls, quizzes & word clouds, from any phone.",
+    "url": "oratora.live",
+    "logo": "site/logo.svg",
+    "logoIsWordmark": false,
+    "colors": {
+      "bg": "#0B0814",
+      "fg": "#F6F2FF",
+      "muted": "#ADA2C6",
+      "accent": "#A57BFF",
+      "accent2": "#E879F9"
+    },
+    "font": "Inter",
+    "displayFont": "Sora"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "lines": [
+        "Your whole room,",
+        "*answering live.*"
+      ],
+      "vo": "Someone just built *live polls* your whole audience answers from their phones."
+    },
+    {
+      "type": "logo",
+      "style": "assemble",
+      "vo": "It's called *Oratora.*"
+    },
+    {
+      "type": "spotlight",
+      "image": "site/hero.png",
+      "focus": {
+        "x": 0.78,
+        "y": 0.74,
+        "zoom": 2.1
+      },
+      "caption": "Every answer, *on the big screen.*",
+      "label": "Join with a room code",
+      "vo": "People join with a room code, and every answer lands on the *big screen.*"
+    },
+    {
+      "type": "steps",
+      "title": "How it *works*",
+      "items": [
+        {
+          "icon": "🗳️",
+          "title": "Ask",
+          "desc": "Poll, quiz, word cloud"
+        },
+        {
+          "icon": "📱",
+          "title": "Join",
+          "desc": "Any phone, no app"
+        },
+        {
+          "icon": "📺",
+          "title": "Watch",
+          "desc": "Live in seconds"
+        }
+      ],
+      "vo": "Ask a question. They join from *any phone*, no app. Results show up in *seconds.*"
+    },
+    {
+      "type": "cta",
+      "headline": "Would you *use* this?",
+      "url": "oratora.live",
+      "button": "Try it free",
+      "vo": "Would you *use it* in your next talk?"
+    }
+  ],
+  "outro": {
+    "text": "Follow for tomorrow's launch",
+    "vo": "Follow for tomorrow's launch."
+  }
+}
