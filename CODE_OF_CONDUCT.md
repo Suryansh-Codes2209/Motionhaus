@@ -20,7 +20,7 @@ Motionhaus is a small project, and everyone who takes part (in issues, pull requ
 
 ## Reporting
 
-If someone's behaviour is a problem, report it privately to the maintainer through the "Report content" option on the comment or issue, or by opening a private security advisory (Security tab → "Report a vulnerability") if you cannot reach them another way. Reports are read in confidence.
+If someone's behaviour is a problem, use GitHub's **Report content** option (the ⋯ menu on the comment, issue or pull request). The report goes to the maintainer and to GitHub, and is not shown to the person reported. For anything that breaks the law or GitHub's own rules, GitHub's [abuse reporting](https://support.github.com/contact/report-abuse) also applies.
 
 ## What happens
 

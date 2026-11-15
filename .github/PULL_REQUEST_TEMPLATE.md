@@ -12,4 +12,4 @@
 - [ ] New behaviour has a test that failed before the change
 - [ ] No tokens, `.env` contents, personal paths or a channel's private data in the diff
 - [ ] Third-party code or ideas are credited with their licence (`CREDITS.md` / `NOTICE.md`)
-- [ ] Fits the [Rules for using Motionhaus](../blob/main/RESPONSIBLE_USE.md)
+- [ ] Fits the [Rules for using Motionhaus](https://github.com/Suryansh-Codes2209/Motionhaus/blob/main/RESPONSIBLE_USE.md)

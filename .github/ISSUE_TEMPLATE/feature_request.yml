@@ -18,5 +18,5 @@ body:
     attributes:
       label: Rules
       options:
-        - label: This fits the [Rules for using Motionhaus](../blob/main/RESPONSIBLE_USE.md) (no impersonation, no copied stories or characters, no platform-rule workarounds).
+        - label: This fits the [Rules for using Motionhaus](https://github.com/Suryansh-Codes2209/Motionhaus/blob/main/RESPONSIBLE_USE.md) (no impersonation, no copied stories or characters, no platform-rule workarounds).
           required: true
